@@ -1,0 +1,10 @@
+.descricao-content{
+    width: 800px;
+}
+
+@media (max-width: 800px)
+{
+    .descricao-content {
+         width: 300px;
+    }
+}

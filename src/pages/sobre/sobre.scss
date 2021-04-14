@@ -1,0 +1,35 @@
+.sobre-container{
+    background-color: #111E6C;
+
+    .sobre-content{
+        color: #fff;
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+        .profile{
+            padding-right: 40px;
+            img{
+                width: 200px;
+                border-radius: 100px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 800px)
+{
+    .sobre-container{
+        .sobre-content{
+            width: 300px;
+            flex-direction: column;
+            
+            .profile{
+                padding: 0px;
+            }
+        }
+    }
+}
