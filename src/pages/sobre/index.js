@@ -1,11 +1,9 @@
 import './sobre.scss';
-import Menu from '../../components/menu'
 import ImageProfile from '../../assets/foto_perfil.jpg'
 
 const Sobre = () => {
   return (
     <div className="container sobre-container">
-      <Menu />
       <div className="content sobre-content">
         <div className="profile">
           <img src={ImageProfile} />

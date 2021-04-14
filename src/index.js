@@ -7,14 +7,17 @@ import BlogDetails2 from './pages/blogDetails2';
 import Sobre from './pages/sobre';
 import Descricao from './pages/descricao';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import Header from './components/header'
+
 ReactDOM.render(
   <BrowserRouter>
+    <Header />
     <Switch>
       <Route path="/" exact={true} component={Blog} />
       <Route path="/blog-details-1" exact={true} component={BlogDetails1} />
       <Route path="/blog-details-2" exact={true} component={BlogDetails2} />
-      <Route path="/sobre" exact={true}   component={Sobre} />
+      <Route path="/sobre" exact={true} component={Sobre} />
       <Route path="/descricao" exact={true} component={Descricao} />
     </Switch>
   </ BrowserRouter>
-    , document.getElementById('root'));
+  , document.getElementById('root'));

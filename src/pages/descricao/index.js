@@ -1,10 +1,8 @@
 import './descricao.scss';
-import Menu from '../../components/menu'
 
 const Descricao = () => {
   return (
     <div className="container">
-      <Menu />
       <div className="content descricao-content">
         <h2>
           Descrição do blog

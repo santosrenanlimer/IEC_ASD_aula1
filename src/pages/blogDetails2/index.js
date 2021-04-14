@@ -1,10 +1,8 @@
 import './blogDetails2.scss';
-import Menu from '../../components/menu'
 
 const BlogDetails2 = () => {
   return (
     <div className="container">
-      <Menu />
       <div className="content blog-details-content">
         <h2>
           5 dicas para ser um bom líder técnico

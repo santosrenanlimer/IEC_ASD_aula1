@@ -1,11 +1,9 @@
 import './blog.scss';
-import Menu from '../../components/menu'
 import { Link } from 'react-router-dom'
 
 const Blog = () => {
   return (
     <div className="container">
-      <Menu />
       <div className="content blog-content">
         <h2>
           Últimas do blog

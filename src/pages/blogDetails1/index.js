@@ -1,10 +1,8 @@
 import './blogDetails1.scss';
-import Menu from '../../components/menu'
 
 const BlogDetails1 = () => {
   return (
     <div className="container">
-      <Menu />
       <div className="content blog-details-content">
         <h2>
           Como ser um profissional de sucesso na área de TI
