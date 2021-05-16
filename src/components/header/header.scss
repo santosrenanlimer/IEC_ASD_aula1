@@ -1,12 +1,12 @@
-.menu{
+.header{
     background-color: #111E6C;
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-.link{
-    color: #fff;
-    padding: 20px 30px;
-    text-decoration: none;
+    
+    .link{
+        color: #fff;
+        padding: 20px 30px;
+        text-decoration: none;
+    }
 }
